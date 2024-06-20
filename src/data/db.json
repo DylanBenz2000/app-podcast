@@ -1,26 +1,39 @@
 [
     {
         "id": 1,
-        "titulo": "Como utilizar el Display block, inline, inline-block",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/ESP-2052+-++React%3A+practicando+React+con+Js/282x425+-+Jean.png",
-        "link": "https://www.youtube.com/embed/AG2QssLpQzI?si=6Yn355wcxAqU7_Ld"
+        "titulo": "NO OYES GRITAR LOS MUERTOS (RELATOS DE TERROR)",
+        "capa": "https://i.ytimg.com/vi/c3AweP3Mxic/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBUfcE1GLboc6_6jv1-BhL6BdAyDw",
+        "link": "https://www.youtube.com/embed/c3AweP3Mxic"
     },
     {
         "id": 2,
-        "titulo": "Productividad en el trabajo remoto",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/ESP-2052+-++React%3A+practicando+React+con+Js/282x425+-+Gabi.png",
-        "link": "https://www.youtube.com/embed/AULPtYo25Lw?si=UGdKX1NSrEcQ0jfn"
+        "titulo": "LA NOCHE DE LA SIRENA (HISTORIAS DE ENCUENTROS PARANORMALES)",
+        "capa": "https://i.ytimg.com/vi/hbGJRbKJvBI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXBkFl1INJG17C7-RkuT1G4WsmZA",
+        "link": "https://www.youtube.com/embed/hbGJRbKJvBI"
     },
     {
         "id": 3,
-        "titulo": "¿Cuáles son las principales áreas de la programación?",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/ESP-2052+-++React%3A+practicando+React+con+Js/282x425+-+Genesis.png",
-        "link": "https://www.youtube.com/embed/03cxUlwLVt4?si=zVCUQNO-eS2RZQTO"
+        "titulo": "SUCESOS ATERRADORES EN CARRETERAS VOL. 2",
+        "capa": "https://i.ytimg.com/vi/b5ZyBuZ0XSU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBp93P9QQJ2-a5UnoVeG-n4Dxl7Kw",
+        "link": "https://www.youtube.com/embed/b5ZyBuZ0XSU"
     },
     {
         "id": 4,
-        "titulo": "Detección de intruso con IA",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/ESP-2052+-++React%3A+practicando+React+con+Js/282x425+-+Ale.png",
-        "link": "https://www.youtube.com/embed/5T_Q_NtNLZE?si=M7D0JeagaKqsoaFs"
+        "titulo": "LA BRUJA DEL PEDREGAL DE SANTO DOMINGO",
+        "capa": "https://i.ytimg.com/vi/tltfzZbb2OY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOW4S5DSyXehnqJGaK9gyvsP5tIQ",
+        "link": "https://www.youtube.com/embed/tltfzZbb2OY"
+    },
+    {
+        "id": 5,
+        "titulo": "NO DEJES QUE TE LLEVE EL MUERTO (Y MÁS RELATOS DE FANTASMAS)",
+        "capa": "https://i.ytimg.com/vi/E6P-tpjWZE4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOFNeoF3-A6uFCM02ASgdlEUIvPw",
+        "link": "https://www.youtube.com/embed/E6P-tpjWZE4"
+    }
+    ,
+    {
+        "id": 6,
+        "titulo": "LA LEYENDA DEL MANIQUÍ QUE CAMINA EN REFORMA",
+        "capa": "https://i.ytimg.com/vi/KlE68HUswuE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJhiGWojJmLoUPW68r6k-aCSK7RQ",
+        "link": "https://www.youtube.com/embed/KlE68HUswuE"
     }
 ]

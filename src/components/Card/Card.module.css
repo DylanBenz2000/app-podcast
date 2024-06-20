@@ -1,5 +1,5 @@
 .container {
-    padding: 0 0 1em 0;
+    padding: 0 0 15px 0;
     margin-top: .5em;
     width: 282px;
     background-color: var(--gris);
@@ -16,15 +16,15 @@
 }
 
 .tituloCard{
-    font-size: 1em;
+    font-size: 17px;
 }
 
 .container h2, .favorito {
-    padding: 0 1em;
+    padding: 0 15px;
 }
 
 .favorito {
-    margin-left: 10px;
+    margin-left: 1px;
     width: 25px;
 }
 

@@ -12,7 +12,7 @@ const Inicio = () =>{
             Ya que al estar dentro del browserRouter las demás rutas, compartirán el mismo Header y Footer.
          */}
         
-        <Banner img="home" color="#154580"/>
+        <Banner img="relatos" color="#154580"/>
         <Titulo><h1>Un lugar para guardar tus capitulos favoritos</h1></Titulo>
         
 
