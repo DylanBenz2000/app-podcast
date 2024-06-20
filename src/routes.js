@@ -1,7 +1,7 @@
-import Cabecera from "components/Cabecera/Cabecera"
-import Container from "components/Container/Container"
-import Pie from "components/Pie/Pie"
 import Favoritos from "pages/Favoritos"
+import NotFound from "pages/NotFound"
+import PaginaBase from "pages/PaginaBase"
+import Player from "pages/Player"
 
 const { default: Inicio } = require("pages/inicio")
 const { BrowserRouter, Routes, Route } = require("react-router-dom")
@@ -9,17 +9,16 @@ const { BrowserRouter, Routes, Route } = require("react-router-dom")
 const AppRoutes = () => {
     return (
         <BrowserRouter>
-            <Cabecera />
-
-            <Container>
-                <Routes>    
-                    <Route path="/" element={<Inicio />} />
-                    <Route path="/favoritos" element={<Favoritos />} />
-                </Routes>        
-            </Container>
-
-
-            <Pie/>
+            <Routes>   
+                 {/*Rutas Anidadas en una sola ruta que es la paginabase  */}
+                <Route path="/" element={<PaginaBase/>} >
+                    {/* Aca con el index, estamos diciendo que esta ruta va a ser el inicio */}
+                    <Route index element={<Inicio />} />
+                    <Route path="favoritos" element={<Favoritos />} />
+                    <Route path=":id" element={<Player />} />
+                    <Route path="*" element={<NotFound />} />
+                </Route>
+            </Routes>        
         </BrowserRouter>
     )
 }

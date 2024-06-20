@@ -2,9 +2,9 @@ import styles from './Titulo.module.css'
 
 const Titulo = ({children}) => {
     return(
-        <h1 className={styles.texto}>
+        <div className={styles.texto}>
             {children}
-        </h1>
+        </div>
     )
 }
 
