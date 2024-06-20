@@ -8,7 +8,7 @@ const Cabecera = () => {
         <header className={styles.cabecera}>
             <Link to='/'>
                 <section className={styles.logoContainer}>
-                    <img src={logo} alt='Logo Alura' /> <span>Podcast</span>
+                    <img src={logo} alt='Logo Alura' className={styles.logoPodcast}/> <span>Podcast</span>
                 </section>
             </Link>
             <nav className={styles.nav}>

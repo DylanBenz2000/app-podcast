@@ -6,9 +6,17 @@
     background-color: var(--negro);
 }
 
+.nav a{
+    color: var(--blanco);
+}
+
+.nav a:hover{
+    color: #ff0000;
+    transition: color 0.3s ease-in-out;
+}
+
 a{
     text-decoration: none;
-    color: var(--blanco);
 }
 
 .logoContainer{
@@ -17,7 +25,7 @@ a{
     align-items: center;
 }
 
-.cabecera img{
+.cabecera .logoPodcast{
     align-self: start;
 }
 
@@ -28,4 +36,24 @@ a{
     margin-left: 8px;
     color: white;
     font-size: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+    .cabecera{
+        /* NOTA TAL VEZ ESTE 100% ME DE PROBLEMAS */
+        padding: 10px;
+    }
+
+    .logoContainer{
+        height: 35px;
+    }
+
+    .logoPodcast{
+        width: 50px;
+    }
+
+    .cabecera span{
+        font-size: 1rem;
+    }
+
 }

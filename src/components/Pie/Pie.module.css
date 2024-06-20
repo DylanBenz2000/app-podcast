@@ -3,9 +3,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 0;
 }
 
 .titulo{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--blanco);
+}
+
+@media screen and (max-width: 800px) {
+    .footer{
+        width: 100%;
+    }
 }

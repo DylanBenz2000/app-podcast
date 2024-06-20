@@ -2,17 +2,29 @@ import Banner from 'components/Banner/Banner'
 import styles from './index.module.css'
 import Titulo from 'components/Titulo/Titulo'
 import { useParams } from 'react-router-dom'
-import videos from "data/db.json"
+// import videos from "data/db.json"
 import NotFound from 'pages/NotFound'
+import { useEffect, useState } from 'react'
 
 
 const Player = () => {
 
+    const [video, setVideo] = useState([])
+
+
     const parametros = useParams()
 
-    const video = videos.find( (video) => {
-        return video.id === Number(parametros.id)
-    })
+    useEffect( () => {
+        fetch(`https://my-json-server.typicode.com/DylanBenz2000/app-podcast-api/videos?id=${parametros.id}`)
+        .then(response => response.json())
+        .then(data => {
+            setVideo(...data)
+        })
+    },[])
+
+    // const video = videos.find( (video) => {
+    //     return video.id === Number(parametros.id)
+    // })
 
     console.log(video)
 
@@ -26,7 +38,7 @@ const Player = () => {
     return(
 
         <>
-            <Banner img="player" color="#58b9ae"/>
+            <Banner img="play" color="#58b9ae"/>
             <Titulo><h1>Player</h1></Titulo>
 
             <section className={styles.container}>

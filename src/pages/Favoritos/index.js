@@ -11,7 +11,7 @@ const Favoritos = () =>{
 
     return(
         <>
-        <Banner img={"favoritos"} color={"#44d97d"}/>
+        <Banner img={"fav"} color={"#3B3B3B"}/>
         <div>
         <Titulo><h1>Mis Favoritos</h1></Titulo>
 
