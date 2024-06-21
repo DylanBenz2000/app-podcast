@@ -2,9 +2,34 @@
     font-size: 2em;
 }
 
+.text_error{
+    color: #fff;
+}
+
 .error{
     margin: 0 auto;
     font-size: 12em;
     color: red;
 }
 
+@media screen and (max-width: 800px) {
+    .container{
+        margin: 70px 0;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .error{
+        align-self: center;
+        font-size: 12em;
+    }
+
+    .text_error{
+        font-size: 4em;
+        color: #fff;
+    }
+  }
